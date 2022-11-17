@@ -13,6 +13,7 @@
 		48C9992F2922908400D2813D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9992E2922908400D2813D /* ProfileView.swift */; };
 		48C999342922915F00D2813D /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C999332922915F00D2813D /* MessageView.swift */; };
 		48C99937292292AD00D2813D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C99936292292AD00D2813D /* Constant.swift */; };
+		48D301AE2925BB850054D186 /* DisplayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D301AD2925BB850054D186 /* DisplayRowView.swift */; };
 		48FC0F31291FF389006AA751 /* AnimalWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FC0F30291FF389006AA751 /* AnimalWorldApp.swift */; };
 		48FC0F33291FF389006AA751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FC0F32291FF389006AA751 /* ContentView.swift */; };
 		48FC0F35291FF38B006AA751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FC0F34291FF38B006AA751 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		48C9992E2922908400D2813D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		48C999332922915F00D2813D /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		48C99936292292AD00D2813D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		48D301AD2925BB850054D186 /* DisplayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRowView.swift; sourceTree = "<group>"; };
 		48FC0F2D291FF389006AA751 /* AnimalWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FC0F30291FF389006AA751 /* AnimalWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalWorldApp.swift; sourceTree = "<group>"; };
 		48FC0F32291FF389006AA751 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		48C9991A292288D500D2813D /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				48D301AB2925BB5B0054D186 /* Components */,
 				48C99930292290E600D2813D /* Messages */,
 				48C9992B2922904800D2813D /* Profile */,
 				48C9992329228F9200D2813D /* Explore */,
@@ -166,6 +169,38 @@
 				48C99936292292AD00D2813D /* Constant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		48D301AB2925BB5B0054D186 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				48D301AC2925BB630054D186 /* DisplayRow */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		48D301AC2925BB630054D186 /* DisplayRow */ = {
+			isa = PBXGroup;
+			children = (
+				48D301B02925C3020054D186 /* VIewsModel */,
+				48D301AF2925C2FC0054D186 /* Views */,
+			);
+			path = DisplayRow;
+			sourceTree = "<group>";
+		};
+		48D301AF2925C2FC0054D186 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48D301AD2925BB850054D186 /* DisplayRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48D301B02925C3020054D186 /* VIewsModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewsModel;
 			sourceTree = "<group>";
 		};
 		48FC0F24291FF389006AA751 = {
@@ -282,6 +317,7 @@
 				48FC0F31291FF389006AA751 /* AnimalWorldApp.swift in Sources */,
 				48C9992F2922908400D2813D /* ProfileView.swift in Sources */,
 				48C999342922915F00D2813D /* MessageView.swift in Sources */,
+				48D301AE2925BB850054D186 /* DisplayRowView.swift in Sources */,
 				48C9991F29228D6400D2813D /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
