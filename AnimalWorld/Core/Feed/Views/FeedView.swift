@@ -9,9 +9,14 @@ import SwiftUI
 
 struct FeedView: View {
     var body: some View {
-        Text("FEED VIEW")
-        //create a DisplayRowView
-        //
+        ScrollView{
+            LazyVStack {
+                ForEach(0...20, id: \.self){ display in
+                    DisplayRowView()
+                    
+                }
+            }
+        }
     }
 }
 
