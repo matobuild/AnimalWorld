@@ -12,8 +12,28 @@ struct ProfileView: View {
         VStack(alignment:.leading) {
           
             headerView
+                .padding(.bottom, 50)
                         
-            Text("dfsdf")
+            VStack(alignment: .leading) {
+                Text("MATO DOG")
+                    .font(.title2)
+                    .bold()
+                Text("I like to eat and poop")
+                    .font(.subheadline)
+                    .italic()
+                    .padding(.bottom)
+                
+                
+             Divider()
+                
+                HStack{
+                    Image(systemName: "house")
+                    Text("Live at bangok Thailand")
+                }
+                .font(.title3)
+            }
+            .padding(.horizontal)
+            
             
            
                 
